@@ -129,7 +129,7 @@ public final class TimeBlockEraser extends JavaPlugin implements TaskRunner {
     public void registerEvents() {
         // Register the plugin events
         this.getServer().getPluginManager().registerEvents(new BlockPlace(this), this);
-        this.getServer().getPluginManager().registerEvents(new EntityPlace(this), this);
+        //this.getServer().getPluginManager().registerEvents(new EntityPlace(this), this);
     }
 
     public void registerMetrics(int metricsId) {
